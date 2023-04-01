@@ -16,8 +16,9 @@
     <p><em> Educational History </em></p>
     <ul>
       <li> 2019.6 高校卒業 国際バカロレア取得 </li>
-      <li> 2020.4~2021.3 東京理科大学理学部第二部物理学科 </li>
-      <li> 2021.4~ 東京理科大学理工学部物理学科 </li>
+      <li> 2020.4 ~ 2021.3 東京理科大学理学部第二部物理学科 </li>
+      <li> 2021.4 ~ 東京理科大学創域理工学部先端物理学科（旧称 理工学部物理学科）</li>
+      <li> 2022.10 ~ 2024.3 東京理科大学創域理工学部先端物理学科 石塚研究室所属 </li>
       <li> 2024.3 東京理科大学創域理工学部先端物理学科（旧称 理工学部物理学科）卒業予定 </li>
     </ul>
     <div onload="draw();">
@@ -31,25 +32,24 @@
     </div>
     <p><em> Professional History </em></p>
     <ul>
-      <li> 2021.7~9 株式会社Sagriでアルバイト (python, pandas) </li>
-      <li> 2022.5~ 株式会社Smart Solutionsでインターンシップ / アルバイト (python, pandas, pyqt, OAuth) </li>
+      <li> 2021.7 ~ 9 株式会社Sagriでアルバイト (python, pandas) </li>
+      <li> 2022.5 ~ 2023.3 株式会社Smart Solutionsでインターンシップ / アルバイト (python, pandas, pyqt, OAuth) </li>
       <li> 2022.12 株式会社マイナビ エンジニアハッカソンインターン (4日間) (next.js)
-      <li> 2023.1~3 株式会社Sagriでアルバイト(python, pandas) </li>
+      <li> 2023.1 ~ 3 株式会社Sagriでアルバイト(python, pandas) </li>
     </ul>
     <p><em> Skills </em></p>
     <ul>
-      <li>AtCoder Algo 緑 (username: shiganayuta)</li>
+      <li>AtCoder Algo 緑  <a href="https://atcoder.jp/users/shiganayuta/">(username: shiganayuta)</a></li>
       <li>基本情報技術者（2022春）</li>
-      <li>TOEIC L&R 930</li>
       <li>普通自動車免許（AT限定）</li>
     </ul>
     <p><em> Awards / Achievements </em></p>
     <ul>
       <li> 東京理科大学産学連携機構 2022年度起業家育成プログラム「ビジネスモデル創造入門」修了 </li>
-      <li> 東京大学宇宙線研究所 宇宙・素粒子スプリングスクール 最高エネルギー宇宙線グループ 参加 </li>
+      <li> 東京大学宇宙線研究所 宇宙・素粒子スプリングスクール2023 最高エネルギー宇宙線グループ 参加</li>
     </ul>
     </p>
-    寝るのが得意です / <a href="https://twitter.com/nesoberist/">twitter</a> / <a href="https://github.com/phnyo">GitHub</a> / 保有ドメイン: 無職.dev、sabanium.me
+    寝るのが得意です / <a href="https://twitter.com/nesoberist/">twitter</a> / <a href="https://github.com/phnyo">GitHub</a> 
   </div>
 </body>
 <style>
@@ -61,6 +61,7 @@
 <script>
   var canvas = document.getElementById("canvas");
   var cnt = 0;
+  var rand = Math.floor(Math.random() * 10);
 
   function init() {
       window.requestAnimationFrame(draw);
@@ -79,6 +80,5 @@
     }   
     window.requestAnimationFrame(draw);
   }
-
   init();
 </script>
